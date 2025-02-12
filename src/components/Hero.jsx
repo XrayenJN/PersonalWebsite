@@ -23,9 +23,9 @@ const Hero = () => {
           
         </div>
       </div>
-      <div className='w-1/3 ssm:w-fit'>
+      <div className='w-1/6 ssm:w-fit'>
         <img src={HeroPic} alt="" width={250} height={250}
-        className='rounded-full w-full border-3 border-white'></img>
+        className='rounded-full w-half border-3 border-white'></img>
       </div>
     </section>
   )
