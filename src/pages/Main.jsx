@@ -6,10 +6,11 @@ import SkillIntro from "../components/mainpage/SkillIntro"
 
 const Main = () => {
   return (
-    <div className="bg-blue-300">
+    <div className="h-max bg-blue-300">
         <Header />
         <Hero />
         <SkillIntro />
+        <Footer />
     </div>
   )
 }
