@@ -1,5 +1,5 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
-import HeroPic from '../assets/hyouka-icon.png';
+import HeroPic from '../../assets/hyouka-icon.png';
 import { MdEmail } from 'react-icons/md';
 import { DiGoogleAnalytics } from 'react-icons/di';
 
