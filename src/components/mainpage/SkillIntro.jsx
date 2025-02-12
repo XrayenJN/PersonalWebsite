@@ -1,4 +1,4 @@
-const Skill = () => {
+const SkillIntro = () => {
   return (
     <div className="flex justify-around items-center p-8 space-x-10 m:flex-row ssm:flex-col space-y-2">
       <div>
@@ -13,4 +13,4 @@ const Skill = () => {
   )
 }
 
-export default Skill
+export default SkillIntro
