@@ -1,11 +1,10 @@
 import React from 'react'
+import Main from './components/Main'
 
 const App = () => {
   return (
-    <div>
-      <div className='container max-w-screen-xl mx-auto px-4'>
-        <h1>Hello</h1>
-      </div>
+    <div className=''>
+      <Main />
     </div>
   )
 }
