@@ -9,6 +9,7 @@ const Main = () => {
     <div className="h-max bg-blue-300">
         <Header />
         <Hero />
+        <Project />
         <SkillIntro />
         <Footer />
     </div>
