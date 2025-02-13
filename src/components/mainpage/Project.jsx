@@ -42,7 +42,7 @@ const Project = () => {
               <div className="flex flex-col gap-10 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[300px] w-[200px] lg:h-[300px] lg:w-[300px] overflow-hidden cursor-pointer">
                 <div
                   className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: item.backgroundImage }}
+                  style={{ backgroundImage: `url(${item.backgroundImage})` }}
                 />
                 <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
                 <div className="relative flex flex-col gap-3">
