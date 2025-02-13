@@ -5,6 +5,12 @@ import backgroundCard from "../assets/card_backround.jpg"
 export const ProjectsData = [
   {
     icon: RxArchive,
+    title: "Warehourse System",
+    content: "Kotlin",
+    backgroundImage: backgroundCard,
+  },
+  {
+    icon: RxArchive,
     title: "Team Management System",
     content: "React, Express, Firebase",
     backgroundImage: backgroundCard,
@@ -18,7 +24,7 @@ export const ProjectsData = [
   {
     icon: RxArchive,
     title: "MMO Games Library",
-    content: "React, Firebase",
+    content: "Swift",
     backgroundImage: backgroundCard,
   },
   {
