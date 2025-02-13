@@ -68,6 +68,8 @@ const SkillLists = () => {
               <p>Git, Github, Gitlab</p>
               <li className="font-bold">Gamedev:</li>
               <p>Pygame, Unity</p>
+              <li className="font-bold">GUI:</li>
+              <p>Swing, Tkinter</p>
             </ul>
           </div>
         </div>
