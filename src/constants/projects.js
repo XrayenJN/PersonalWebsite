@@ -1,36 +1,36 @@
 import { RxArchive } from "react-icons/rx";
 
-import backgroundCard from "../assets/card_backround.jpg"
+import WarehouseIcon from "../assets/warehouse.png";
 
 export const ProjectsData = [
   {
-    icon: RxArchive,
+    icon: WarehouseIcon,
     title: "Warehourse System",
     content: "Kotlin",
-    backgroundImage: backgroundCard,
+    description: ""
   },
   {
     icon: RxArchive,
     title: "Team Management System",
     content: "React, Express, Firebase",
-    backgroundImage: backgroundCard,
+    description: ""
   },
   {
     icon: RxArchive,
     title: "Document Reminder",
     content: "React, Firebase",
-    backgroundImage: backgroundCard,
+    description: ""
   },
   {
     icon: RxArchive,
     title: "MMO Games Library",
     content: "Swift",
-    backgroundImage: backgroundCard,
+    description: ""
   },
   {
     icon: RxArchive,
     title: "Nine Man Morris Game",
     content: "Java, Swing",
-    backgroundImage: backgroundCard,
+    description: ""
   },
 ]

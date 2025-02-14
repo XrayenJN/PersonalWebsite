@@ -55,7 +55,7 @@ const Project = () => {
                   <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
                   <div className="relative flex flex-col gap-3">
                     <div className='flex justify-center'>
-                      <img src={HeroPic} alt="" width={65} height={65}
+                      <img src={item.icon} alt="" width={65} height={65}
                       className='rounded-full w-half border-1 border-white' />
                     </div>
                     <h1 className="text-xl lg:text-2xl">{item.title} </h1>
