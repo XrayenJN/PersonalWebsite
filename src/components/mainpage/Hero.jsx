@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="w-1/3 ssm:w-fit">
         <h1 className="text-6xl text-slate-100">Jordan Nathanael</h1>
         <hr/>
-        <p className="mt-4 text-md text-slate-100 font-sans">Junior Software Developer, Assistant Lecturer, and Computer Science Graduate</p>
+        <p className="mt-4 text-md text-slate-100 ">Junior Software Developer, Assistant Lecturer, and Computer Science Graduate</p>
         <div className='flex mt-5 space-x-4 cursor-pointer'>
           <a href='https://github.com/XrayenJn'><BsGithub href='https://github.com/XrayenJn' size={35} className='border-3 hover:border-blue-600 rounded-full' /></a>
           <a href='https://au.linkedin.com/in/jordan-nathanael'><BsLinkedin size={35} className='border-3 hover:border-blue-600 rounded-full' /></a>
