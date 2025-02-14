@@ -5,9 +5,7 @@ import { HiMenuAlt1 } from "react-icons/hi"
 const NavItems = () => {
   return (
     <>
-      <a href="#" className="hover:bg-blue-600 rounded-full px-3 py-2 text-l">Projects</a>
-      <a href="#" className="hover:bg-blue-600 rounded-full px-3 py-2 text-l">Skills</a>
-      <a href="#" className="hover:bg-blue-600 rounded-full px-3 py-2 text-l">Contact Me</a>
+      <a href="mailto:jordannathanael0@gmail.com" className="hover:bg-blue-600 rounded-full px-3 py-2 text-l">Contact Me</a>
     </>
   )
 }
