@@ -21,7 +21,9 @@ export const Header = () => {
   return (
     <>
       <div className="flex justify-between p-4 lg:flex-row">
-        <div className="tracking-wider flex items-center">LOGO</div>
+        <a href="/">
+          <div className="tracking-wider flex items-center">Home</div>
+        </a>
         <div className="space-x-4">
           <div className="hidden md:flex">
             <NavItems />

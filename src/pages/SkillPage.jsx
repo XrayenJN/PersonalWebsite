@@ -4,7 +4,8 @@ import SkillLists from "../components/skillpage/SkillLists"
 
 const SkillPage = () => {
   return (
-    <div className="h-max bg-blue-300">
+    <div className="h-max bg-blue-300 text-slate-100 font-mono">
+      <Header />
       <SkillLists />
       <Footer />
     </div>
