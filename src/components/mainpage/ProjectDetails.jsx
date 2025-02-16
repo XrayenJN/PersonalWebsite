@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroPic from '../../assets/hyouka-icon.png';
+import GithubIcon from '../../assets/github.png';
 
 const ProjectDetails = ({project}) => {
   return (
@@ -11,7 +11,7 @@ const ProjectDetails = ({project}) => {
         <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
         <div className="relative flex flex-col gap-3">
           <div className='flex justify-center'>
-            <img src={HeroPic} alt="" width={65} height={65}
+            <img src={project.icon} alt="" width={65} height={65}
             className='rounded-full w-half border-1 border-white' />
           </div>
           <h1 className="text-xl lg:text-2xl">{project.title} </h1>
@@ -19,8 +19,15 @@ const ProjectDetails = ({project}) => {
           <p className="lg:text-[14px]">{project.description} </p>
         </div>
       </div>
-      <div className='w-2/3 '>
+      <div className='w-2/3 p-10'>
         If available, demonstration will be put here.
+        {project.githubLink 
+          ? <a href={project.githubLink} target="_blank">
+              <img src={GithubIcon} alt="" width={35} height={35}
+              className='border-1 hover:border-blue-600 rounded-full' />
+            </a>
+          : <></>
+        }
       </div>
     </div>
   )
