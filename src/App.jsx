@@ -1,20 +1,16 @@
-import React, { useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import SkillPage from './pages/SkillPage'
 import Main from './pages/Main'
 
 const App = () => {
-  useEffect(() => {
-    document.title = "Jordan Nathanael's website"
-  })
-
   return (
-    <>
+    <HashRouter>
       <Routes>
         <Route path='/' exact element={<Main />} />
         <Route path='/skills' element={<SkillPage />} />  
       </Routes>   
-    </> 
+    </HashRouter> 
   )
 }
 
