@@ -9,17 +9,17 @@ import CvIcon from "../../assets/cv.png";
 
 const Hero = () => {
   return (
-    <section className="flex justify-around items-center p-8 space-x-10 m:flex-row ssm:flex-col space-y-10 py-50">
-      <div className="w-1/3 ssm:w-fit">
-        <h1 className="text-6xl text-slate-100">Jordan Nathanael</h1>
+    <section className="flex justify-around items-center h-screen">
+      <div className="w-2/6 sm:w-[350px]">
+        <h1 className="text-3xl lg:text-6xl text-slate-100">Jordan Nathanael</h1>
         <hr/>
-        <p className="mt-4 text-md text-slate-100 ">Junior Software Developer, Assistant Lecturer, and Computer Science Graduate</p>
+        <p className="mt-4 text-xs lg:text-base text-slate-100 ">Junior Software Developer, Assistant Lecturer, and Computer Science Graduate</p>
         <div className='flex mt-5 space-x-4 cursor-pointer'>
           <a href='https://github.com/XrayenJn' target="_blank">
             <img src={GithubIcon} alt="" width={35} height={35}
             className='border-1 hover:border-blue-600 rounded-full' />
           </a>
-          <a href='https://au.linkedin.com/in/jordan-nathanael' target="_blank"><img src={LinkedinIcon} alt="" width={35} height={35}
+          <a href='https://au.linkedin.com/in/jordan-nathanael' target="_blank"><img src={LinkedinIcon} alt="" width={35} height={50}
             className='border-1 hover:border-blue-600 rounded-full' /></a>
           <a href='mailto:jordannathanael0@gmail.com' target="_blank"><img src={EmailIcon} alt="" width={35} height={35}
             className='border-1 hover:border-blue-600 rounded-full' /></a>
@@ -27,10 +27,10 @@ const Hero = () => {
             className='border-1 hover:border-blue-600 rounded-full' /></a>          
         </div>
       </div>
-      <div className='w-1/6 ssm:w-fit'>
+      <div className='w-1/6 hidden sm:flex'>
         <a href='https://en.wikipedia.org/wiki/Hyouka#:~:text=An%20unsung%20tragic,Jun%27s%20silent%20anguish.' target="_blank">
           <img src={HeroPic} alt="" width={350} height={350}
-          className='rounded-full w-half border-3 border-white' />
+          className='rounded-full w-half border-3 border-white hidden sm:block' />
         </a>
       </div>
     </section>
