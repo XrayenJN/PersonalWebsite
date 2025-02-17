@@ -13,7 +13,7 @@ const SkillIntro = () => {
           <h1 className="text-center text-2xl">Assistant Lecturer</h1>
           <p className="text-center">I'm an assistant lecturer by trade, but I do enjoy programming!</p>
           <hr/>
-          <a href="/skills">
+          <a href="/#/skills">
             <p className="text-center py-5 text-red-600 font-bold">Check my Skillset</p>
           </a>
         </div>

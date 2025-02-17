@@ -43,7 +43,7 @@ export const Header = () => {
               <div className="md:hidden flex justify-between ml-6">
                 <ul>
                   <li className="text-sm mb-2 cursor-pointer">
-                    <a href="/skills">Skills</a>
+                    <a href="/#/skills">Skills</a>
                   </li>
                   <li className="text-sm mb-2 cursor-pointer">
                     <a href="mailto:jordannathanael0@gmail.com">Contact Me</a>
