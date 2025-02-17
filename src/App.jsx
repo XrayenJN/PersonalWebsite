@@ -5,12 +5,12 @@ import Main from './pages/Main'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <Routes>
         <Route path='/' exact element={<Main />} />
         <Route path='/skills' element={<SkillPage />} />  
-      </Routes>    
-    </BrowserRouter>      
+      </Routes>   
+    </> 
   )
 }
 
