@@ -1,7 +1,7 @@
 const SkillLists = () => {
   return (
-    <section className="flex justify-around p-15 space-x-20 m:flex-row ssm:flex-col space-y-10">
-      <div className="w-1/2 ssm:w-fit">
+    <div className="block lg:flex justify-items-center md:justify-self-center text-sm lg:text-m p-5">
+      <div className="w-fit p-5">
         <div className="py-3">
           <div className="border-2 border-solid border-white-800 p-2">
             {/* Preferred Languages */}
@@ -52,7 +52,7 @@ const SkillLists = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 ssm:w-fit">
+      <div className="w-fit p-5">
         <div className="py-3">
           <div className="border-2 border-solid border-white-800 p-2">        
             {/* Technologies */}
@@ -97,7 +97,7 @@ const SkillLists = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
