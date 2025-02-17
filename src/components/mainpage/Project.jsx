@@ -26,7 +26,7 @@ const Project = () => {
           className="p-10 flex items-center justify-center flex-col h-fit border-t-2">
           <Swiper
             breakpoints={{
-              500: {
+              550: {
                 slidesPerView: 2,
                 spaceBetween: 10,
               },
@@ -48,7 +48,7 @@ const Project = () => {
           >
             {ProjectsData.map((item) => (
               <SwiperSlide onClick={() => setChosenProject(item)}key={item.title}>
-                <div className="flex flex-col gap-10 mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 h-[300px] w-[200px] lg:h-[300px] lg:w-[300px] overflow-hidden cursor-pointer">
+                <div className="flex flex-col gap-10 mb-10 lg:mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 overflow-hidden cursor-pointer h-[250px] w-[200px] lg:h-[300px] lg:w-[250px] font-size-2xl">
                   <div
                     className="absolute inset-0 bg-cover bg-center bg-blue-400 opacity-70 border-2"
                   />
@@ -58,8 +58,8 @@ const Project = () => {
                       <img src={item.icon} alt="" width={65} height={65}
                       className='rounded-full w-half border-1 border-white' />
                     </div>
-                    <h1 className="text-xl lg:text-2xl">{item.title} </h1>
-                    <p className="lg:text-[18px]">{item.content} </p>
+                    <h1 className="text-m lg:text-xl">{item.title} </h1>
+                    <p className="text-xs lg:text-sm">{item.content} </p>
                   </div>
                   <RxArrowTopRight className="absolute bottom-5 left-5 w-[25px] h-[25px] text-white group-hover:text-blue-500 group-hover:rotate-45 duration-100" />
                 </div>
