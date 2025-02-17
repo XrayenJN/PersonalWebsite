@@ -26,16 +26,16 @@ const Project = () => {
           className="p-10 flex items-center justify-center flex-col h-fit border-t-2">
           <Swiper
             breakpoints={{
-              550: {
-                slidesPerView: 2,
+              400: {
+                slidesPerView: 1.5,
                 spaceBetween: 10,
               },
-              900: {
-                slidesPerView: 3,
+              700: {
+                slidesPerView: 2.5,
                 spaceBetween: 10,
               },
-              1500: {
-                slidesPerView: 4,
+              1300: {
+                slidesPerView: 3.5,
                 spaceBetween: 10,
               },
             }}
@@ -44,13 +44,13 @@ const Project = () => {
               clickable: true,
             }}
             modules={[FreeMode, Pagination]}
-            className="max-w-[80%] lg:max-w-[80%]"
+            className="max-w-[90%] lg:max-w-[80%]"
           >
             {ProjectsData.map((item) => (
               <SwiperSlide onClick={() => setChosenProject(item)}key={item.title}>
                 <div className="flex flex-col gap-10 mb-10 lg:mb-20 group relative shadow-lg text-white rounded-xl px-6 py-8 overflow-hidden cursor-pointer h-[250px] w-[200px] lg:h-[300px] lg:w-[250px] font-size-2xl">
                   <div
-                    className="absolute inset-0 bg-cover bg-center bg-blue-400 opacity-70 border-2"
+                    className="absolute inset-0.5 bg-cover bg-center bg-blue-400 opacity-70 border-2"
                   />
                   <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-50" />
                   <div className="relative flex flex-col gap-3">
